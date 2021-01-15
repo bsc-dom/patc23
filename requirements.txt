@@ -1,0 +1,2 @@
+dataclay>=2.5
+jupyter

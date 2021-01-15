@@ -1,0 +1,13 @@
+# All python cache files
+__pycache__/
+*pyc
+
+# The virtual environment
+/venv/
+
+# The stubs folders should be ignored
+stubs/
+
+# All the jupyter notebook temporal files
+.ipynb_checkpoints/
+
