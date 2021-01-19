@@ -12,12 +12,12 @@ if __name__ == "__main__":
     # Random generation of 3072 x 3072 matrices
     a = Matrix(3072)
     b = Matrix(3072)
-    # Make them persistent
-    a.make_persistent()
-    b.make_persistent()
     # Initialize the two matrices with random numbers
     a.random()
     b.random()
+    # Make them persistent
+    a.make_persistent()
+    b.make_persistent()
 
     print("""
 *****************************************************

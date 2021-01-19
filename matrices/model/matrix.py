@@ -56,7 +56,9 @@ class Matrix(DataClayObject):
             row = list()
             self.blocks.append(row)
             for j in range(self.num_blocks):
-                row.append(Block(np.random.random((self.blocksize, self.blocksize))))
+                b = Block(np.random.random((self.blocksize, self.blocksize)))
+                b.make_persistent()
+                row.append(b)
 
     @dclayMethod()
     def zeros(self):
@@ -64,7 +66,9 @@ class Matrix(DataClayObject):
             row = list()
             self.blocks.append(row)
             for j in range(self.num_blocks):
-                row.append(Block(np.zeros((self.blocksize, self.blocksize))))
+                b = Block(np.zeros((self.blocksize, self.blocksize)))
+                b.make_persistent()
+                row.append(b)
 
     @dclayMethod()
     def ones(self):
@@ -72,14 +76,16 @@ class Matrix(DataClayObject):
             row = list()
             self.blocks.append(row)
             for j in range(self.num_blocks):
-                row.append(Block(np.ones((self.blocksize, self.blocksize))))
+                b = Block(np.ones((self.blocksize, self.blocksize)))
+                b.make_persistent()
+                row.append(b)
 
     @dclayMethod(_local=True, other="model.matrix.Matrix", return_="model.matrix.Matrix")
     def __matmul__(self, other):
         # Initialize the output matrix with zeros
         result = Matrix(self.size)
-        result.make_persistent()
         result.zeros()
+        result.make_persistent()
 
         result_blocks = result.blocks
         
