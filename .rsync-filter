@@ -1,0 +1,5 @@
+- /venv/
+- .git
+- .ipynb_checkpoints
+- __pycache__
+- stubs/
