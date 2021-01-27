@@ -3,6 +3,7 @@
 
 The _solutions_ for the WordCount application can be found in this folder.
 
-The `.html` files should be nicer to look at, but GitHub doesn't like to render
-them and thus a simple markdown format is also provided (`.md` files). The HTML
-format will be much closer to the Jupyter Notebook look&feel.
+A _pre-rendered_ version can be found, in HTML format. You can use those without
+the need to have a Jupyter Notebook running. The Notebook files (`.ipynb` extension)
+are also available here. GitHub makes a nice job rendering the notebooks; this allows
+to easily inspect them from within the browser.
