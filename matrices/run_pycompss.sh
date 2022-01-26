@@ -10,7 +10,7 @@
 
 enqueue_compss \
 	--num_nodes=2 \
-	--qos=debug \
+	--reservation=PATC_HECUBA \
 	--exec_time=30 \
 	--job_name=patc_matmul \
 	--max_tasks_per_node=8 \
@@ -27,4 +27,4 @@ enqueue_compss \
 
 
 ###### Remember update the reservation
-#	--reservation=PATC20-DATA \
+#	--reservation=PATC_HECUBA \
