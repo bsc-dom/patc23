@@ -1,5 +1,5 @@
 
-# dataClay PATC hands on
+# PATC hands on
 
 Welcome!
 
