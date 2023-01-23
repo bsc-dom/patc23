@@ -12,6 +12,10 @@ If you don't have access to a `ssh` CLI command and use PuTTY instead, configure
 The dataClay hands-on is contained in the `matrices` folder. This part of the hands-on requires connecting to Mare Nostrum nodes.
 
 ---
+<picture>
+ <img alt="ADMIRE logo" src="ADMIRE-logo.png" height=150>
+</picture><picture>
+ <img alt="eFlows4HPC logo" src="eflows-logo.png" height=150>
+</picture>
 
-![ADMIRE logo](ADMIRE-logo.png)
 > This project has received funding from the European Union’s Horizon 2020 JTI-EuroHPC research and innovation programme H2020-JTI-EuroHPC-2019-1, under grant agreements No: 955558 — eFlows4HPC, 956748 — ADMIRE
