@@ -10,7 +10,7 @@
 
 enqueue_compss \
 	--num_nodes=2 \
-	--reservation=PATC_HECUBA \
+	--reservation=PATC:23 \
 	--exec_time=30 \
 	--job_name=patc_matmul \
 	--max_tasks_per_node=8 \
@@ -24,7 +24,3 @@ enqueue_compss \
 	--storage_props="$PWD/execution_values" \
 	--prolog="$DATACLAY_HOME/bin/dataclayprepare,$PWD/model/,$PWD,model,python" \
 		$PWD/matmul_main.py
-
-
-###### Remember update the reservation
-#	--reservation=PATC_HECUBA \
