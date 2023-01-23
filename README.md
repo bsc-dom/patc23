@@ -5,7 +5,7 @@ Welcome!
 
 First part of the hands-on is contained in the `wordcount` folder. The solutions of the exercises can be found in the `wordcount-solutions` folder (the solution may not be unique, in case of doubt just ask). This part of the hands-on is done with Jupyter notebooks through a web browser.
 
-If you don't have access to a `ssh` CLI command and use PuTTY instead, as the image shows:
+If you don't have access to a `ssh` CLI command and use PuTTY instead, configure it as the image shows:
 
 ![PuTTY configuration screenshot](PuTTY-portfwd.png).
 
